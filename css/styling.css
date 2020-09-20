@@ -615,3 +615,9 @@ td {
     float: none !important;
   }
 }
+
+@media screen and (max-width: 400px) {
+  table {
+    margin-right: 5px;
+  }
+}
