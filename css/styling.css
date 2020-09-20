@@ -616,8 +616,18 @@ td {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 550px) {
   table {
-    margin-right: 5px;
+    table-layout:fixed !important;
+    word-break: break-all !important;
+  }
+
+  th, td {
+    table-layout:fixed !important;
+    word-break: break-all !important;
+  }
+
+  * {
+    scroll-snap-stop: always !important;
   }
 }
