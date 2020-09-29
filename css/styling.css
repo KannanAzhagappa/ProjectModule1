@@ -637,7 +637,7 @@ td {
   0%   {color: red;}
   25%  {color: yellow;}
   50%  {color: blue;}
-  100% {-color: green;}
+  100% {color: green;}
 }
 
 /* Class selector to apply the animation */
