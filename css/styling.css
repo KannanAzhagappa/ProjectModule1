@@ -631,3 +631,18 @@ td {
     scroll-snap-stop: always !important;
   }
 }
+
+/* The animation code for the first assignment */
+@keyframes colorchange {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {-color: green;}
+}
+
+/* Class selector to apply the animation */
+.animate {
+  animation-name: colorchange;
+  animation-duration: 10s;
+  animation-delay: 1s;
+}
